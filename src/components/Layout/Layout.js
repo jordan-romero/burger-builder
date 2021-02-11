@@ -1,10 +1,15 @@
 import React from 'react'
 
-const Layout = () => {
+const Layout = (props) => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div>
+                Toolbar, SideDrawer, Backdrop
+            </div>
+            <main>
+                {props.children}
+            </main>
+        </>
     )
 }
 
