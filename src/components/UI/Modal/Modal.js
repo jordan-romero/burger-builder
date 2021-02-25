@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Modal = () => {
+const Modal = (props) => {
     return (
         <div>
-            
+            {props.children}
         </div>
     )
 }
