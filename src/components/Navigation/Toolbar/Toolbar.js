@@ -7,7 +7,9 @@ const Toolbar = (props) => {
   return (
     <header className={classes.Toolbar}>
       <div>MENU</div>
-      <Logo />
+      <div>
+        <Logo />
+      </div>
       <nav>
         <NavigationItems />
       </nav>
